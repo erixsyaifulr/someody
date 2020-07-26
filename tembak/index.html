@@ -472,24 +472,24 @@
 					<div class="mymax"></div>
 				</div>
 				<div class="myheader" id="mywindowheader">
-					Halo <span id="spannama"></span>
+					halo <span id="spannama"></span>
 				</div>
 				<div class="mybody">
 					<div class="mytitle">
-						Aku Erix Syaiful Rohman sejak lama suka padamu.
+						Aku sejak lama suka padamu.
 					</div>
 					<div class="mycontent">
 						Maukah kau menjadi orang yang selalu ada disisiku, yang selalu ada disaat senang ataupun susah, yang selalu ada sampai akhir hayatku?
 					</div>
 					<div class="mybutton">
-						<div class="mybuttonno" onmouseover="move()" onclick="move2()" >Gamau</div>
-						<div class="mybuttonyes" onclick="playVid()">Mau</div>
+						<div class="mybuttonno" onmouseover="move()" onclick="move2()" >tidak</div>
+						<div class="mybuttonyes" onclick="playVid()">iya</div>
 					</div>
 				</div>
 				<div class="myresize"></div>
 			</div>
 		</div>
-		<span style="position: absolute; text-align: center; line-height: 100vh; width: 100vw; z-index:-10;">I love U :*</span>
+		<span style="position: absolute; text-align: center; line-height: 100vh; width: 100vw; z-index:-10;">jangan dijual bos</span>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	  	<script type="text/javascript">
 	  		/*
@@ -509,7 +509,7 @@
 	  		function init(){
 	  			startTime();
 	  			stopOpening();
-	  			add='<div class="cc">copyright ESR @2020</div>';
+	  			add='<div class="cc">copyright Andika Sujanadi @2020</div>';
 	  			$('body').append(add);
 	  			if(localStorage.getItem("nama") != null && localStorage.getItem("checked") == "yoi"){
 		  			namaku=localStorage.getItem("nama");
@@ -814,10 +814,10 @@
 					else if(h>4) document.querySelector('img').src="wp2.png";
 					else         document.querySelector('img').src="wp1.png";
 				}
-				if(window.btoa($('.cc').text())!='copyright ESR @2020'){
-// 					if(jalan) $('.container').remove();
-// 					if(jalan) $('img').remove();
-// 					jalan=true;
+				if(window.btoa($('.cc').text())!='Y29weXJpZ2h0IEFuZGlrYSBTdWphbmFkaSBAMjAyMA=='){
+					if(jalan) $('.container').remove();
+					if(jalan) $('img').remove();
+					jalan=true;
 				}
 			}
 			function tulis(waktu,ucapan){
